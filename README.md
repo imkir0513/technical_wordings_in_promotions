@@ -6,7 +6,7 @@ This study focused on active UberEats subscribers in New York City, the study us
 
 ## Research Plan
 
-![alt text](https://github.com/imkir0513/technical_wordings_in_promotions/blob/master/images/research%20plan.png)
+![alt text](https://github.com/imkir0513/technical_wordings_in_promotions/blob/master/images/research%20plan.png](https://github.com/imkir0513/technical_wordings_in_promotions/blob/master/images/research%20plan.png)
 
 In this study, we zoom in on the technical language within UberEats promotional emails. To provide a clearer recommendation, we're specifically looking at the use of jargon and acronyms. Our hypothesis posits that promotional emails with more than three technical terms in a 95-100 word ad are more impactful than those without any technical language. Subscribers will be randomly assigned to three email types: without technical language, with over three jargon words, and with over three acronym words. The final step involves using the chi-square test to pinpoint which group uses the coupon most frequently.
 
