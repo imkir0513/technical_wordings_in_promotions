@@ -28,13 +28,7 @@ For sample selection, we employed stratified sampling to ensure a representative
 
 ![alt text](https://github.com/imkir0513/technical_wordings_in_promotions/blob/master/images/statistical_plans.png)
 
-Using the Chi-square test in R, we compare groups with and without technical terms. The test checks if proportions of coupon users differ.
-
-For example, in assessing acronyms, we count coupon users in the control and treatment groups. The 'chisq.test' function in R helps with this:
-
-(chisq.test(bp.dat$data.Group, bp.dat$data.coupon, correct = TRUE))
-
-The results show 'Yes' proportions and p-values. If proportions differ and the p-value is below a chosen level (usually 0.05), we reject the idea that the impact of technical terms is the same in both groups.
+Our statistical plan involves employing the Chi-square test, suited for categorical data, to assess the influence of acronyms and jargon in our study. We have pre-established effect sizes, with 0.30 for acronyms and 0.35 for jargon. To ensure the statistical power of our test, we set a target power of 0.8 and determined our sample size accordingly. Enhancing the reliability of our findings, we plan to repeat the simulation 1,000 times. This comprehensive approach aims to provide a robust and thorough statistical analysis of the impact of technical language in our study.
 
 ## Limitations and Uncertainties
 
