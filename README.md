@@ -32,6 +32,6 @@ Our statistical plan involves employing the Chi-square test, suited for categori
 
 ## Limitations and Uncertainties
 
-The main limitation identified is the potential for selection bias in this study. The sample is exclusively drawn from UberEATS subscribers, restricting the generalization of our conclusions to a broader population. For instance, if there's a proven difference between UberEATS subscribers and the general population of food delivery service customers, our findings may not apply universally. Additionally, if UberEATS subscribers generally have a higher income than Chowbus subscribers, the conclusions from this study may not be applicable to Chowbus subscribers.<br><br>
+The main limitation identified is the potential for selection bias in this study. The sample is exclusively drawn from UberEATS subscribers, restricting the generalization of our conclusions to a broader population. For instance, if there's a proven difference between UberEATS subscribers and the general population of food delivery service customers, our findings may not apply universally. Additionally, if UberEATS subscribers generally have a higher income than Chowbus subscribers, the conclusions from this study may not be applicable to Chowbus subscribers.
 
 For more details please go to [PowerPoint]([https://drive.google.com/file/d/1xJzeeVglnfx6QTnRNuxlLBsmHjl3TbMt/view?usp=sharing](https://drive.google.com/file/d/14yaDmSQAuAhhE40wJeSADLfIDFuXGyPp/view)https://drive.google.com/file/d/14yaDmSQAuAhhE40wJeSADLfIDFuXGyPp/view)
