@@ -44,4 +44,4 @@ Additionally, the study faces uncertainty regarding potential hidden traits amon
 
 <br>
 <br>
-More details please go to [PowerPoint](https://drive.google.com/file/d/14yaDmSQAuAhhE40wJeSADLfIDFuXGyPp/view)
+More details please go to ![PowerPoint](https://drive.google.com/file/d/14yaDmSQAuAhhE40wJeSADLfIDFuXGyPp/view)
