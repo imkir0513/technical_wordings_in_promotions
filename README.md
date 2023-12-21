@@ -1,0 +1,1 @@
+# technical_wordings_in_promotions
