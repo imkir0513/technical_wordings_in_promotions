@@ -2,7 +2,7 @@
 In the competitive food delivery industry, effective advertising is crucial for success. UberEats, a major player, is exploring the impact of technical language like acronyms and jargon on subscriber engagement in their promotional emails, challenging the assumption that simpler ads are always better. 
 <br>
 <br>
-This study focused on active UberEats subscribers in New York City, the study uses stratified sampling to randomly assign participants to control and treatment groups. Statistical analyses, including chi-squared tests, will reveal how technical language influences click-through rates, with the ultimate goal of providing practical insights for UberEats and potentially benefiting the broader food delivery industry. [PowerPoint](https://drive.google.com/file/d/14yaDmSQAuAhhE40wJeSADLfIDFuXGyPp/view)
+This study focused on active UberEats subscribers in New York City, the study uses stratified sampling to randomly assign participants to control and treatment groups. Statistical analyses, including chi-squared tests, will reveal how technical language influences click-through rates, with the ultimate goal of providing practical insights for UberEats and potentially benefiting the broader food delivery industry. 
 
 ## Research Plan
 
@@ -40,4 +40,7 @@ The results show 'Yes' proportions and p-values. If proportions differ and the p
 
 A key limitation of this study is the potential for selection bias. Our sample is exclusively drawn from UberEATS subscribers, limiting the generalizability of our findings to a broader population. For instance, if UberEATS subscribers differ significantly from the general population of food delivery service users, our conclusions may not apply universally. This is particularly relevant if UberEATS subscribers have a higher income than users of other services like Chowbus.
 
+<br>
+<br>
+More details please go to [PowerPoint](https://drive.google.com/file/d/14yaDmSQAuAhhE40wJeSADLfIDFuXGyPp/view)
 Additionally, the study faces uncertainty regarding potential hidden traits among UberEATS subscribers. As mentioned earlier, we measure customer preference based on coupon usage, but this might not capture the full picture. Factors like email delivery issues or customers not reading the promotion could affect results. While we can compare the impact of different promotional designs, we cannot definitively attribute non-order placement solely to a lack of responsiveness to the promotion. This limitation prevents us from accurately assessing the effectiveness of the designs and computing conversion rates.
