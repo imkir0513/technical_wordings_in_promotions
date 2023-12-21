@@ -1,0 +1,412 @@
+---
+title: "Technical wording in Uber Eats Promotional Emails"
+author:  "Chang Wu, Chen Huang, Mei-Chu Chen, Shriya Nallamaddi, Yixuan Zou"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment="", warning = FALSE, message = FALSE, tidy.opts=list(width.cutoff=55), tidy = TRUE)
+```
+
+## Part 1:  Research Proposal
+
+### Executive Summary / Abstract
+
+**Authors (Chen Huang, 100%)**: 
+It has been ill-advised to compose a piece of advertisement in a plain and intriguing manner to grab the audience’s attention and therefore lead to a purchase action. Despite the limited relevant research focus on the narrowed scope of the food delivery industry, it is presumed that the “plain and intriguing” principle applies to the industry as well.
+In our study, we would like to propose an assumption that advanced wordings and complex linguistic structures are related to customers’ inclination to view the promotion materials. Our study has narrowed the scope to email promotion and focused on the proportion of jargons wording and acronyms amid the paragraph. We limited our study to New York City to reduce the impact of confounding factors such as restaurant choices and economic level. The ultimate importance of the study is to provide a measurable and actionable recommendation for the leading food delivery player – UberEats to survive and thrive in the incredibly competitive food delivery market and hopefully could be generalized for the benefit of the entire industry in the future.
+
+Objective: To understand the optimal language manners for food delivery advertisements under the context of email promotions. More specifically, the relationship between the proportion of scientific wordings (Acronym/Jargon) in the promotion material with customers’ inclination to view the message. 
+
+Research design: We use stratified sampling to categorize the customers based on the last six-month purchase into 5 levels likely $50 and less, $51-$100, $101-$150, $151-$200, and $201 and more. Each sample group receives a promotional email with a pre-designed level of jargons wording and acronyms. We divided them into treatment and control grouos wth equal size. We assumed a 30% higher proportion of acronyms nd 35% higher proportion in jargons. The Chi-square test will be applied and the significance of the variables is measured for the scenarios with effect and without effect.
+
+
+
+
+### Statement of the Problem
+
+**Authors (Chen Huang, 100%)**: 
+Advertisement, evolved from the form of outdoor billboards and a 4-inch patch on the newspaper to state-of-the-art digital marketing, has proved itself to be one of the most desirable and effective bridges between corporates and their customers. Various studies were conducted to illuminate the optimal advertisement features and it has been predominantly believed that plain and intriguing languages are the preferred manner for advertisements. Among the universe of all industries, the food and beverages (F&B) industry are assumed to contain a considerably lower level of advanced vocabularies and complex structures.
+With the recent rise of COVID-19, unmet needs for food delivery surges and companies such as UberEats have come into the audience’s sights. However, the low entry barrier of this red-ocean segment has made it incredibly competitive, with continuous new entrants posing threats to the leading players. Marketing and advertisement have become the crucial elements to consolidate UberEat’s edge as an industry pioneer and potentially expand its market share. Our study targets to obtain a better understanding of the optimal and effective language for advertisements in the food delivery context. The study specifically focuses on the languages used in written promotion emails. With the aim to deliver a more precise, measurable, and actionable recommendation for UberEats, we have narrowed our research scope to focus on the proportion of jargon and acronyms involved in a single piece of advertisement.
+
+
+
+### Research Questions and Hypotheses 
+**Authors (Chen Huang, 100%)**: 
+1. How do technical wordings(acronym) in UberEats promotion emails impact subscribers’ inclination to click into the promotional materials?
+H0: The technical wordings(acronym) in UberEats promotion emails have the same coupon usage rate as that of the promotional mails without any acronyms.
+H1: The technical wordings(acronym) in UberEats promotion emails have higher coupon usage rates as that of the promotional mails with acronyms.
+2. How do technical wordings(jargon) in UberEats promotion emails impact subscribers’ inclination to click into the promotional materials?
+H0: The technical wordings(jargon) in UberEats promotion emails have the same coupon usage rate as that of the promotional mails without any jargons.
+H1: The technical wordings(jargon) in UberEats promotion emails have different coupon usage ratesas that of the promotional mails with jargons.
+The confidence level to reject H0 is set to be 95%. For the first research question, if the p-value < [0.05], we reject the H0 and conclude that there is a statistically significant difference between customers’ inclination of viewing promotional emails with different levels of technical wordings. For the second research question, if the p-value < [0.05], we reject the H0 and conclude that there is a statistically significant difference between customers’ inclination of viewing promotional emails with different levels of acronyms.
+
+
+
+### Importance of the Study
+
+**Authors (Chen Huang, 100%)**: 
+Marketing and advertisement serve as a critical bridge between corporate and customers, especially for the client-centric tertiary industry like food delivery. Despite the rocket-speed development of the food delivery industry under the context of the enduring COVID-19 situation, there is a lack of relevant research on the optimal languages for written advertisement specified in the food delivery industry. New players continuously entering the red-ocean market to share the cake have posed challenges for early movers like UberEats to maintain their edge and are squeezing their profitability. Of the ultimate importance is to have a better understanding of the optimal wording manners in email advertisement, which is currently the predominant communication channel for UberEats. We hope the actionable and measurable recommendation can lead to a sheer increase in email viewing inclination and a straightforward monetization from the advertisement for UberEats. Beyond the corporate scope, the recommendation can be generalized for the benefit of the entire food delivery industry.
+
+
+
+### Literature Review
+
+**Authors (Mei-Chu Chen, 100%)**: 
+The apothegm in most of the print advertising industry is to "keep it simple." The expected reason is that many readers have such restricted vocabularies or low limits of fatigue that the marketing specialist should utilize words easily comprehended and assimilated by the whole interest group. The regular advertiser naturally has introduced the message in a way exceptionally viable in both linguistic structure and semantic content with that normally experienced and expected by the receiver. However, we found out that the main customers in UberEats are better educated and have a higher economic level, hence we assume that using high-level wording in their promotion email will produce a positive effect, for example, technical wording.  Berelson and Steiner’s (1964) study can support this contention. For example, they found that people who are better educated are more likely to pay attention to serious communications and to acquire information from print media. Furthermore, many products such as electronic equipment, cameras, and household appliances have higher-level technical attributes that advertisers wish to promote as differentiating features owing to technical language appearing more scientific and professional, which can build clients' confidence in the products.  Moreover, Liu and Leach (2001) also discovered when a salesman utilizes more technical wordings gets more credits in customers. Besides, we also found out that purchase motivations seem to be straightforwardly relative to the technical content. One absorbing conclusion drawn was that even though people with no experience prefer simple advertisements, their response to the technical content is found significantly increasing (Anderson&Jolson,1980). Lautman and Percy (1978) have hypothesized that these traits address advantages to the prospective purchaser which can best be communicated by use of the advertiser's technical expression. The above studies support that there is some reason to believe that an advertisement's technical content level affects the communication's power to generate credibility, interest, attention, and the audience's overall faith in the product's merits. In short, the preceding discussion proves that technical wording could have a positive influence on uber eats promotion emails since their main customers have better educated and have a higher economic level. Therefore, we investigated the effect of technical wording and what might happen when the effect occurs.
+
+
+
+### Research Plan
+
+**Authors (Mei-Chu Chen, 100%)**: 
+In the study, we specifically focus on the technical wordings used in written promotion emails. Aiming to deliver a more measurable and actionable recommendation for UberEats, we have narrowed our research scope to focus on the proportion of jargon and acronym. We hypothesize that the email that includes more than three technical wordings in a 95-100 words advertisement has a better promotional effect than the one without any technical wording. We will randomly assign the subscribers to three types of email: the email without any technical wording, the email that includes more than three jargon words, and the email that provides for more than three acronym words. In the end, we will use the chi-square test to see which group of people use the coupon in the email the most. 
+
+
+
+#### Population of Interest
+
+**Authors (Mei-Chu Chen, 100%)**: 
+About the population of interest in this study, we are going to focus on the subscribers of UberEats in New York City where UberEats is their second popular food delivery app. (Richard Gawlas, 2021)
+
+
+#### Sample Selection
+
+**Authors (Chang Wu, 100%)**: 
+For the sample selection, our team decided to use stratified sampling as our sampling method to obtain a sample population that best represents the entire population of interest. We stratified our sample based on the previous yearly expenditure on Uber Eats to measure customers within each strata’s sensitivity to the elements we planned to investigate to gather an ordered pattern for customers from each stratum. The average annual spend per customer on Uber Eats in 2020 was $220.37 (Slice Intelligence, 2020). Unfortunately, we were not able to acquire the entire distribution of average spend customers. Adhering to the best practice of stratified sampling that suggests “no more than 4-6 stratification variables and no more than 6 strata should be used in a sample…” (Question Pro, 2021) and also considering users that recently signed up and do not have a past order record yet, our team stratified the customers into five stratums based on their spend in the last 6 months: $50 and less, $51-$100, $101-$150, $151-$200, and $201 and more. 
+
+
+#### Sample Size
+
+**Authors (Chang Wu, 100%)**: 
+Since both our outcome variable, whether customers that will receive one of the two promotional emails end up using the coupon or not, and independent variables, whether acronyms and scientific expression are included in our promotional emails are categorical variables, we will use the chi-squared test to investigate the relationship between these variables. To gain a better understanding of the smallest sample size that is appropriate to detect the effect of the chi-squared test at the 0.05 alpha level, our team performed a power analysis prior to the study. As it is suggested for the majority of statistical tests, “common practice is to use a value of 0.5 as it indicates a moderate to large difference”, and “It is generally accepted that power should be .8 or greater.” (Meera, 2021). Therefore, based on the calculation, our smallest sample size is 32. However, considering some of the non-response might not be attributed to the fact that customers are not responsive to that certain type of promotional email, but rather the email went straight to junk box, or the email was not read by the customer, whose probability will be impossible to calculate, we will send out promotional emails to all active Uber Eats users in New York City to increase our chances of acquiring results from customers. As long as the probability of non-response due to reasons unrelated to the promotional design remains the same for both control and treatment groups, our sample still represents the distribution of the population of interest. 
+
+
+#### Operational Procedures
+
+**Authors (Mei-Chu Chen, 100%)**: 
+For our study, we gather some portion of the data from UberEats restricted to New York City. We collect the previous 6-month purchase history and divide it into 5 categories likely, $50 and less, $51-$100, $101-$150, $151-$200, and $201 and more. From each category, 20 people are randomly selected and sent different types of promotional e-mail to them. For the technical wording promotional emails, according to the definition of technical language was in Webster's Third New International Dictionary: “pertaining to or confined chiefly to a particular occupation or specified field of thought.” Even such familiar words as “Calorie” may be considered technical when applied to a specialized field such as food advertisements. There are two forms of technical wording we select – Acronym and Jargon. The acronym is defined as “a word, such as NATO, formed from the initial letter or letters of each of the successive parts or major parts of a compound term” according to Merriam-Webster Dictionary. According to Wikipedia: “Jargon is the specialized terminology associated with a particular field or area of activity…and may not be well understood outside a particular communicative context. The context is usually an occupation…”. Under the context of UberEats and food delivery, the acronyms and jargons selected involve – GM (Genetically Modified), Cal (Calorie), RTU (Ready to Use), BOGO (Buy One Get One), Prot (Protein), TVP (Textured Vegetable Protein), À la carte, Omakase, Plate lunch, Baste, Broil, Eighty-Sixed (86’d), etc. The total words of each advertising material in our study should be constrained to strictly 95-105 words to be comparable, containing 3 and more technical words will be considered as a technical wording email. To avoid bias, we will send the emails to our subscribers without notifying them and see there is a significant impact of technical wordings in the promotional emails.
+
+
+### Brief Schedule
+
+**Authors (Shriya Nallamaddi, 100%)**: 
+Once we finished randomly selecting the participants based on the 5 purchase history categories, we will start to send the promotional emails including coupons to the respondents. After sending the emails, we expect that the subscribers should use the coupon in one week, if they didn't use the coupon then we will take them as the people who will not use it. We assumed that data analysis will need to take one week, report writing might take two weeks. All in all, this research is expected to complete in one month.
+
+
+#### Data Collection
+
+**Authors (Shriya Nallamaddi, 100%)**: 
+While collecting data, persons on the research team should make sure that there is a pilot study conducted before the main experiment because it reduces the likelihood of type-I and type-II errors. Our sample would be the users who agreed to participate in our study. Now that we have the subject’s demographic data, we randomly assign a unique user_id for each participant. We randomize this experiment so that there is no bias. Each participant will receive a mail either with acronym wording or scientific wording or neither of them. Every mail sent will have a coupon code associated with a link to it. This serves as the measuring criteria for whether the participant used the coupon or not for the different types of emails they receive. The responses for this variable will be binary, 0 if coupon not used and 1 if coupon is used.
+
+
+
+#### Data Security
+
+**Authors (Shriya Nallamaddi, 100%)**: 
+Minimizing the research team’s contact with the subject’s sensitive and identifiable information might reduce the risk of harm caused by the data breaches. One approach to make this happen is to separate the subject’s personally identifiable information from the other quantitative data. Once separated, the identifiers should be kept encrypted all the time. Since we collect the information via e-mails, it can be given restricted access so that limited people can read the data. One person on the research team sees that the email is written properly and the other members see to it that the participants filled in the necessary information required. Separation of duty always reduces frauds and errors.
+
+#### Outcomes (Dependent Variables)
+
+
+**Authors (Shriya Nallamaddi, 100%)**: 
+The dependent variable of this study is if the participant used the coupon enclosed in the promotional email or not. It would be a categorical measurement including binary values '1' and '0'.
+
+
+#### Treatments (Independent Variables)
+
+**Authors (Yixuan Zou, 100%)**: 
+The two independent variables for the study are whether the promotional email contains the selected treatments. The treatment for the first independent variable is using acronyms in the promotional email. The treatment for the second independent variable is using the jargons in the promotional email.
+
+Please see the following example:
+For control group:
+This bar has put their signature home-brewed beer which is known for its bittersweet taste on a limited-time seasonal sale, go get it as soon as possible!
+For acronym treatment group:
+This bar has put their signature home-brewed beer which is known for its bittersweet taste on a limited-time seasonal sale, go get it ASAP!
+For jargon treatment group:
+This bar has put their signature home-brewed beer which is known for its bittersweet taste, with an IBU of 55 and Brix of 7, on a limited-time seasonal sale, go get it as soon as possible!
+Note: IBU refers to the International Bitterness unit, a measurement of bitterness. Brix refers to the degree of Brix, a measurement of sugar content.
+
+
+
+#### Other Variables
+
+**Authors (Yixuan Zou, 100%)**: 
+The promotional email itself may contain other variables, such as different items that it’s prompting, different locations for the promotion, different times of the promotion, etc. These other variables’ impact on the study would be filtered by the randomization in the promotions sent to the subscriber, based on the large number of promotions that would be sent out. Additionally, the existence of these other variables in promotional emails would support the application of the conclusions from this research to all types of promotional emails on UberEATS. Instead of limiting the application of the conclusions from this research to only certain types of promotional emails on UberEATS that contain the certain same variables
+The subscribers also contain other variables such as different age groups, different income classes, different genders, different residence locations, etc. The random selection of participants in each stratified group would help to address these variables. So that, the participants would not overly share any same variable that would make the collected skewed. Which would limit the application of the conclusions from this research to only certain customer groups with certain defined traits.
+
+
+
+### Statistical Analysis Plan  
+
+**Authors (Yixuan Zou, 100%)**: 
+The statistical analysis would be performed on the data collected from each treatment group. The data frame would contain three categorical factors: Acronym used or not,  Jargon used or not, the coupon used or not. The Chi-square test is the statistical test performed between the dependent variable and independent variables since the dependent variable is categorical.
+For the simulation, the data on dependent variables are generated by using the “rbinom” function. Treatment groups are assigned, and each treatment group contains the same number of observations since the chi-square requires the same length in the data to be tested.
+
+To perform a chi-sq test, the research group can utilize the chisq.test function within R. The group would perform a chisq test for each research question. First, they would begin with appraising the level of acronyms. To do this, they would first look at the control group. Amongst this group, they would record the number of people that used coupon or not.Then we test the same among the treatmnet group. WE the perform the chi-sq test as follows:
+
+(chisq.test(bp.dat$data.Group,bp.dat$data.coupon, correct = T))
+
+In this calculation, bp.dat is the data frame having columns 'Group' which indicates if it is the treatment group or the control group and the column 'coupon' which has a binary value that indicates whetehr the customer used the coupon or not. For this study, treatment and control group count are equal as each group contains 50 study subjects.
+
+The outcome of this proportion test will display the proportion of ‘Yes’ within each subgroup, as well as the p-value for the statistical test. At the beginning of the study, the research group should have selected a significance value at which point they would feel comfortable rejecting the null hypothesis. A typical significance value is generally around 0.05. If the proportions across the two study subgroups are different and the p-value of the statistical test is less than the selected significance value (likely 0.05), the research group can reject the null hypothesis that the proportions are equal and assert that there is a statistically significant difference amongst the two groups. In this case, this would mean that there is a true difference in the impact of technical wording(acronyms and jargons) in the treatment groups.
+
+
+### Limitations and Uncertainties
+
+**Authors (Yixuan Zou, 100%)**: 
+The most important limitation noted is that selection bias may exist in this study. The sample selection is limited only to UberEATS subscribers, this limits the generalization of the conclusion from this study to a larger population. Such as, the conclusion from this study may not apply to all the customers of the food delivery services if there is a proven difference between the UberEATS subscribers and the general population of customers who use food delivery services. Or, if UberEATS subscribers generally have a higher income than Chowbus subscribers, then the conclusions from this study cannot be applied to Chowbus subscribers. This also leads to the uncertainty if there are any hidden traits in the UberEATS subscribers. 
+As mentioned earlier in this report, another limitation is that since we are measuring whether customers used coupon or not as the indicator to evaluate their preference of promotional emails, we would not be able to know definitively if the reason why those that did not place an order was attributed to not being responsive to that type of promotion. Another explanation could be that the email was not received/went straight to the junk  box or the customer did not read the promotion. Although we were able to compare the effect of different promotional designs since the probability of not reading the email was the same for both groups, we would not be able to determine how effective the implementation of such design is and compute a conversion rate thereof. 
+
+
+
+## Part 2:  Simulated Studies
+
+**Authors (Chang Wu,50%, Shriya Nallamaddi 50%)**: 
+
+Simulation Studies: We simulated the results of our research study to show the potential effects of customers using coupon on our two research questions: emails having acronyms and emails having jargons. There are two scenarios within each research question: no effect and expected effect. No effect is what our test results would look like if the proportions of our study respondents who use coupons having promotional mails with acronyms or jargons were equal between the group having promotional emails without any acronyms or jargons. Expected effect is what our test results could look like if the proportions of our study respondents having emails with acronyms and jargons were significantly higher among the group having emails without any acronyms or jargons, as we predict would be the case due to our research. Because we predict the treatment group count to be higher than the control  group’s count in both cases, we conducted the simulations using one-tailed chi-sq tests and measured the lower bound of the confidence intervals. We used a standard confidence level of 95%, a sample size of 100 respondents split approximately equally between treatment and control groups as planned for our survey distribution, and a repetition of 1000 experiments to control for variation across repeated trials.
+
+Our estimated effect sizes are a 30% higher proportion of acronyms and a 35% higher proportion of jargons in the treatment group than in the control group. We expect the proportion of customers who use coupon with emails having acronyms or jargons to be be higher than the proportion of those customers having emails with none of them. We expect that the acronyms and jargons across both groups to be at least 50% according to recent customers surveys. We expect the difference between the proportions of the two groups to be greater for jargons than acronyms, because some customers find the jargons eay to understand than acronyms which needs some prior knowledge. The assumptions of proportions are as follows: 
+-Acronym, No Effect: Treatment group 70%, Control group 70%
+-Acronyms, 30% Effect: Treatment group 60%, Control group 30% 
+-Jargons, No Effect: Treatment group 60%, Control group 60% 
+-Jargons, 35% Effect:Treatment group 75%, Control group 40%
+
+We first conducted a power analysis to determine the smallest sample size that would still render our study significant in terms of the results. We used what is commonly used in the academic field: 0.8 for power and 0.5 for effect size. Then, we also assumed an alpha level of 0.05 and since there will only be two groups (one with treatment and control). For both chi-squared tests, the degrees of freedom was set to 1. According to the power analysis, the minimal number of participants that are solicited is 32 individuals, and considering the user base of Uber Eats in New York City, our study should have no problem exceeding that threshold. Therefore, to alleviate the computational demand for R, we decided to assume that 50 individuals from both the control group and treatment, a total of 100 individuals, responded by using the coupon we provided.
+ 
+
+#### Scenario 1:  No Effect
+
+**Authors (Chang Wu, 50%,Shriya Nallamaddi,50%)**: 
+
+## Preliminary Code
+
+```{r}
+library(dplyr)
+library(data.table)
+library(DT)
+library(pwr)
+```
+
+##### Simulation
+#ACronym: no effect
+
+```{r}
+pwr.chisq.test(p=0.8,w=0.5,df=1,sig.level=0.05)
+n=100
+set.seed(329)
+bp.dat <- data.table(Group = sample(x = c("Control", "Treatment"), size = n, replace = T))  
+bp.dat[Group == "Control", coupon := rbinom(.N, 1, 0.7)]  
+bp.dat[Group == "Treatment",coupon := rbinom(.N, 1, 0.7)]  
+#repeating the experiment
+
+chisq.test(bp.dat$Group,bp.dat$coupon, correct = T)
+analyze.experiment <- function(the.dat) {
+    require(data.table)
+    setDT(the.dat)
+    tab = data.table(data = the.dat)
+    the.test <- chisq.test(tab$data.Group,tab$data.coupon, correct = T)
+    the.effect <- mean(the.dat[Group == "Treatment", 
+        coupon])-mean(the.dat[Group == "Control", coupon])
+    lower.bound <- the.test$conf.int[1]
+    p <- the.test$p.value
+    result <- data.table(effect = the.effect, lower_ci = lower.bound, p = p)
+    return(result)
+}
+
+
+B <- 1000
+n <- 100
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- 1:B
+Group <- c(rep.int(x = "Treatment", times = n/2), rep.int(x = "Control", times = n/2))
+
+sim1.dat <- as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim1.dat, cols = c("Experiment", "Group"), order = c(1,1))
+sim1.dat[Group == "Control", coupon := rbinom(.N, 1, 0.7)]
+sim1.dat[Group == "Treatment", coupon := rbinom(.N, 1, 0.7)]
+
+```
+
+
+##### Analysis
+
+```{r q1_scenario1_analysis}
+exp.results <- sim1.dat[, analyze.experiment(the.dat = .SD), keyby = "Experiment"]
+a2_mean <- round(100*mean(exp.results$effect), 2)
+a2_positives <- round(100*sum(exp.results$p < 0.05)/B,2)
+a2_negatives <- round(100*sum(exp.results$p >= 0.05)/B,2)
+a2_CI <- round(100*mean(exp.results$lower_ci), 2)
+```
+
+
+## Jargon : no effect
+```{r}
+pwr.chisq.test(p=0.8,w=0.5,df=1,sig.level=0.05)
+n=100
+set.seed(329)
+bp.dat <- data.table(Group = sample(x = c("Control", "Treatment"), size = n, replace = T))  
+bp.dat[Group == "Control", coupon := rbinom(.N, 1, 0.6)]  
+bp.dat[Group == "Treatment",coupon := rbinom(.N, 1, 0.6)]  
+#repeating the experiment
+
+chisq.test(bp.dat$Group,bp.dat$coupon, correct = T)
+analyze.experiment <- function(the.dat) {
+    require(data.table)
+    setDT(the.dat)
+    tab = data.table(data = the.dat)
+    the.test <- chisq.test(tab$data.Group,tab$data.coupon, correct = T)
+    the.effect <- mean(the.dat[Group == "Treatment", 
+        coupon])-mean(the.dat[Group == "Control", coupon])
+    lower.bound <- the.test$conf.int[1]
+    p <- the.test$p.value
+    result <- data.table(effect = the.effect, lower_ci = lower.bound, p = p)
+    return(result)
+}
+
+
+B <- 1000
+n <- 100
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- 1:B
+Group <- c(rep.int(x = "Treatment", times = n/2), rep.int(x = "Control", times = n/2))
+
+sim4.dat <- as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim4.dat, cols = c("Experiment", "Group"), order = c(1,1))
+sim4.dat[Group == "Control", coupon := rbinom(.N, 1, 0.6)]
+sim4.dat[Group == "Treatment", coupon := rbinom(.N, 1, 0.6)]
+```
+
+##Analysis
+```{r}
+exp.results <- sim4.dat[, analyze.experiment(the.dat = .SD), keyby = "Experiment"]
+s2_mean <- round(100*mean(exp.results$effect), 2)
+s2_positives <- round(100*sum(exp.results$p < 0.05)/B,2)
+s2_negatives <- round(100*sum(exp.results$p >= 0.05)/B,2)
+s2_CI <- round(100*mean(exp.results$lower_ci), 2)
+```
+
+#### Scenario 2:  An Expected Effect
+
+**Authors (Chang Wu, 50%/Shriya Nallamaddi,50%)**: 
+
+
+##### Simulation
+##acronym effect:
+```{r q1_scenario2_simulation}
+# make sure the power is over 0.8
+n=100
+set.seed(329)
+pwr.chisq.test(p=0.8,w=0.5,df=1,sig.level=0.05)
+set.seed(329)
+bp.dat <- data.table(Group = sample(x = c("Control", "Treatment"), size = n, replace = T))  
+bp.dat[Group == "Control", coupon := rbinom(.N, 1, 0.3)]  
+bp.dat[Group == "Treatment",coupon := rbinom(.N, 1, 0.6)]  
+#repeating the experiment
+
+chisq.test(bp.dat$Group,bp.dat$coupon, correct = T)
+analyze.experiment <- function(the.dat) {
+    require(data.table)
+    setDT(the.dat)
+    tab = data.table(data = the.dat)
+    the.test <- chisq.test(tab$data.Group,tab$data.coupon, correct = T)
+    the.effect <- mean(the.dat[Group == "Treatment", 
+        coupon])-mean(the.dat[Group == "Control", coupon])
+    lower.bound <- the.test$conf.int[1]
+    p <- the.test$p.value
+    result <- data.table(effect = the.effect, lower_ci = lower.bound, p = p)
+    return(result)
+}
+
+B <- 1000
+n <- 100
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- 1:B
+Group <- c(rep.int(x = "Treatment", times = n/2), rep.int(x = "Control", times = n/2))
+
+sim.dat <- as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim.dat, cols = c("Experiment", "Group"), order = c(1,1))
+sim.dat[Group == "Control", coupon := rbinom(.N, 1, 0.3)]
+sim.dat[Group == "Treatment", coupon := rbinom(.N, 1, 0.6)]
+```
+
+##### Analysis
+
+```{r q2_scenario2_analysis}
+exp.results <- sim.dat[, analyze.experiment(the.dat = .SD), keyby = "Experiment"]
+a1_mean <- round(100*mean(exp.results$effect), 2)
+a1_positives <- round(100*sum(exp.results$p < 0.05)/B,2)
+a1_negatives <- round(100*sum(exp.results$p >= 0.05)/B,2)
+a1_CI <- round(100*mean(exp.results$lower_ci), 2)
+```
+
+
+##jargon : effect
+```{r}
+
+n=100
+set.seed(329)
+pwr.chisq.test(p=0.8,w=0.5,df=3,sig.level=0.05)
+
+bp.dat <- data.table(Group = sample(x = c("Control", "Treatment"), size = n, replace = T))  
+bp.dat[Group == "Control", coupon := rbinom(.N, 1, 0.4)]  
+bp.dat[Group == "Treatment",coupon := rbinom(.N, 1, 0.75)]  
+#repeating the experiment
+analyze.experiment <- function(the.dat) {
+    require(data.table)
+    setDT(the.dat)
+    tab = data.table(data = the.dat)
+    the.test <- chisq.test(tab$data.Group,tab$data.coupon, correct = T)
+    the.effect <- mean(the.dat[Group == "Treatment", 
+        coupon])-mean(the.dat[Group == "Control", coupon])
+    lower.bound <- the.test$conf.int[1]
+    p <- the.test$p.value
+    result <- data.table(effect = the.effect, lower_ci = lower.bound, p = p)
+    return(result)
+}
+chisq.test(bp.dat$Group,bp.dat$coupon, correct = T)
+
+B <- 1000
+n <- 100
+RNGversion(vstr = 3.6)
+set.seed(seed = 4172)
+Experiment <- 1:B
+Group <- c(rep.int(x = "Treatment", times = n/2), rep.int(x = "Control", times = n/2))
+
+sim3.dat <- as.data.table(expand.grid(Experiment = Experiment, Group = Group))
+setorderv(x = sim3.dat, cols = c("Experiment", "Group"), order = c(1,1))
+sim3.dat[Group == "Control", coupon := rbinom(.N, 1, 0.4)]
+sim3.dat[Group == "Treatment", coupon := rbinom(.N, 1, 0.75)]
+```
+
+##Analysis
+```{r}
+exp.results <- sim3.dat[, analyze.experiment(the.dat = .SD), keyby = "Experiment"]
+s1_mean <- round(100*mean(exp.results$effect), 2)
+s1_positives <- round(100*sum(exp.results$p < 0.05)/B,2)
+s1_negatives <- round(100*sum(exp.results$p >= 0.05)/B,2)
+s1_CI <- round(100*mean(exp.results$lower_ci), 2)
+```
+
+The simulations for no effect correctly fail to reject the null in about 97% of trials and incorrectly reject the null in only about 3% of trials. The mean effect sizes are close to, but no exactly, 0, with confidence intervals spanning effects both below and above 0. The simulation for 30% higher acronyms among the treatment group rejects the null in approximately 84% of trials and incorrectly fails to reject the null in approximately 15%. This effect size is slightly difficult, but still likely, to prove with our planned sample size. The simulation for 35% higher jargons among the treatmnet group correctly rejects the null in approximately 92% of trials and incorrectly fails to reject the null in approximately 7%. This effect is larger and thus easier to prove with our planned sample size than the 30% difference in acronyms. The mean effect is close to 35% which is even more compelling to Ubereats leadership than the acronyms question as it represents a larger share of potential customers and therefore a huge revenue opportunity.
+
+## References
+
+**Authors (Yixuan Zou, 100%)**: 
+Anderson, R. E., & Jolson, M. A. (1980). Technical wording in advertising: Implications for market segmentation. Journal of Marketing, 44(1), 57-66.
+ 
+Wu, R., Shah, E. D., Kardes, F. R., & Wyer, R. S. (2020). Technical nomenclature, everyday language, and consumer inference. Marketing Letters, 31(2), 299-310.
+ 
+Annie, L., & Mark, P. L. (2013). Developing Loyal Customers With a Value-Adding Sales Force: Examining Customer Satisfaction and the Perceived Credibility of Consultative Salespeople. Journal of Personal Selling and Sales Management 21(2):147-156
+ 
+Scott,W. (1974). Consumer Socialization.Journal of Consumer Research Vol. 1, No. 2
+
+Schafer, C. (2021, June 10). 100 of the most powerful marketing words. Honey Copy. Retrieved December 8, 2021, from https://www.honeycopy.com/copywritingblog/powerful-marketing-words. 
+
+Uber eats revenue and Usage Statistics (2021). Business of Apps. (2021, November 11). Retrieved December 8, 2021, from https://www.businessofapps.com/data/uber-eats-statistics/. 
+
+Power Analysis, statistical significance, & effect size: Meera: Analysis, Statistical, power. Pinterest. (n.d.). Retrieved December 8, 2021, from https://www.pinterest.com/pin/313492824055116502/. 
+

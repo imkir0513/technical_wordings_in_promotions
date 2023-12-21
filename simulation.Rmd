@@ -1,0 +1,123 @@
+---
+title: "Project"
+author: ""
+date: ""
+output: html_document
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+# {.tabset}
+## Preliminary Code
+
+```{r}
+library(dplyr)
+library(data.table)
+library(DT)
+library(pwr)
+```
+
+## simulation {.tabset}
+
+### 1.Acronym: effect
+
+```{r}
+# make sure the power is over 0.9
+pwr.chisq.test(N=100,w=0.5,df=1,sig.level=0.05)
+n=100
+
+# simulation
+set.seed(seed=5)
+bp.dat <- data.table(Group = c(rep.int(x = "Treatment", times = n), rep.int(x = "Control", times = n)))
+bp.dat[Group == "Control", BP := rbinom(n, 1, 0.1)]
+bp.dat[Group == "Treatment", BP := rbinom(n, 1, 0.5)]
+table=data.table(data = bp.dat)
+names(table)[1]='group'
+names(table)[2]='coupon'
+
+# seperate control and treatment group
+control=table[table$group=='Control','coupon']
+acronym=table[table$group=='Treatment','coupon']
+
+# chi-square test 
+chisq.test(control$coupon,treatment$coupon,correct = T)
+```
+
+### 2.Acronym: non-effect
+
+```{r}
+# make sure the power is over 0.9
+pwr.chisq.test(N=100,w=0.5,df=1,sig.level=0.05)
+n=100
+
+# simulation
+set.seed(seed=5)
+bp.dat <- data.table(Group = c(rep.int(x = "Treatment", times = n), rep.int(x = "Control", times = n)))
+bp.dat[Group == "Control", BP := rbinom(n, 1, 0.5)]
+bp.dat[Group == "Treatment", BP := rbinom(n, 1, 0.5)]
+table=data.table(data = bp.dat)
+names(table)[1]='group'
+names(table)[2]='coupon'
+
+# seperate control and treatment group
+control=table[table$group=='Control','coupon']
+acronym=table[table$group=='Treatment','coupon']
+
+# chi-square test 
+chisq.test(control$coupon,treatment$coupon,correct = T)
+```
+
+### 3.scientific measurement: effect
+
+```{r}
+# make sure the power is over 0.9
+pwr.chisq.test(N=100,w=0.5,df=1,sig.level=0.05)
+n=100
+
+# simulation
+set.seed(seed=5)
+bp.dat <- data.table(Group = c(rep.int(x = "Treatment", times = n), rep.int(x = "Control", times = n)))
+bp.dat[Group == "Control", BP := rbinom(n, 1, 0.9)]
+bp.dat[Group == "Treatment", BP := rbinom(n, 1, 0.2)]
+table=data.table(data = bp.dat)
+names(table)[1]='group' 
+names(table)[2]='coupon'
+
+# seperate control and treatment group
+control=table[table$group=='Control','coupon']
+acronym=table[table$group=='Treatment','coupon']
+
+# chi-square test 
+chisq.test(control$coupon,treatment$coupon,correct = T)
+```
+
+### 4.scientific measurement: non-effect
+
+```{r}
+# make sure the power is over 0.9
+pwr.chisq.test(N=100,w=0.5,df=1,sig.level=0.05)
+n=100
+
+# simulation
+set.seed(seed=5)
+bp.dat <- data.table(Group = c(rep.int(x = "Treatment", times = n), rep.int(x = "Control", times = n)))
+bp.dat[Group == "Control", BP := rbinom(n, 1, 0.1)]
+bp.dat[Group == "Treatment", BP := rbinom(n, 1, 0.5)]
+table=data.table(data = bp.dat)
+names(table)[1]='group'
+names(table)[2]='coupon'
+
+# seperate control and treatment group
+control=table[table$group=='Control','coupon']
+acronym=table[table$group=='Treatment','coupon']
+
+# chi-square test 
+chisq.test(control$coupon,treatment$coupon,correct = T)
+
